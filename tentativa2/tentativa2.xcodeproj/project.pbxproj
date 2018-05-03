@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC724EA4209AB8AD00842682 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC724EA3209AB8AD00842682 /* PostViewController.swift */; };
-		FCD39D70209A9F0F00E216A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD39D6F209A9F0F00E216A7 /* AppDelegate.swift */; };
-		FCD39D72209A9F0F00E216A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD39D71209A9F0F00E216A7 /* ViewController.swift */; };
-		FCD39D75209A9F0F00E216A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD39D73209A9F0F00E216A7 /* Main.storyboard */; };
-		FCD39D77209A9F1000E216A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD39D76209A9F1000E216A7 /* Assets.xcassets */; };
-		FCD39D7A209A9F1000E216A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD39D78209A9F1000E216A7 /* LaunchScreen.storyboard */; };
-		FCD39D82209AA85000E216A7 /* PedidoOracaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD39D81209AA85000E216A7 /* PedidoOracaoViewController.swift */; };
-		FCD39D84209AA87200E216A7 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD39D83209AA87200E216A7 /* PerfilViewController.swift */; };
-		FCD39D86209AA95A00E216A7 /* ClassPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD39D85209AA95A00E216A7 /* ClassPost.swift */; };
-		FCD39D88209AAE2F00E216A7 /* CelulaPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD39D87209AAE2F00E216A7 /* CelulaPost.swift */; };
+		FC724EB2209ABAD600842682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC724EB1209ABAD600842682 /* AppDelegate.swift */; };
+		FC724EB4209ABAD600842682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC724EB3209ABAD600842682 /* ViewController.swift */; };
+		FC724EB7209ABAD600842682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC724EB5209ABAD600842682 /* Main.storyboard */; };
+		FC724EB9209ABAD800842682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC724EB8209ABAD800842682 /* Assets.xcassets */; };
+		FC724EBC209ABAD800842682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC724EBA209ABAD800842682 /* LaunchScreen.storyboard */; };
+		FC724EC9209ABAFA00842682 /* CelulaPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC724EC3209ABAF900842682 /* CelulaPost.swift */; };
+		FC724ECA209ABAFA00842682 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC724EC5209ABAF900842682 /* PerfilViewController.swift */; };
+		FC724ECB209ABAFA00842682 /* ClassPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC724EC6209ABAF900842682 /* ClassPost.swift */; };
+		FC724ECC209ABAFA00842682 /* PedidoOracaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC724EC7209ABAF900842682 /* PedidoOracaoViewController.swift */; };
+		FC724ECD209ABAFA00842682 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC724EC8209ABAF900842682 /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC724EA3209AB8AD00842682 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostViewController.swift; path = ../../tentativa2/tentativa2/PostViewController.swift; sourceTree = "<group>"; };
-		FCD39D6C209A9F0F00E216A7 /* prototipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prototipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCD39D6F209A9F0F00E216A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FCD39D71209A9F0F00E216A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FCD39D74209A9F0F00E216A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FCD39D76209A9F1000E216A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FCD39D79209A9F1000E216A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FCD39D7B209A9F1000E216A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCD39D81209AA85000E216A7 /* PedidoOracaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PedidoOracaoViewController.swift; path = ../../tentativa2/tentativa2/PedidoOracaoViewController.swift; sourceTree = "<group>"; };
-		FCD39D83209AA87200E216A7 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PerfilViewController.swift; path = ../../tentativa2/tentativa2/PerfilViewController.swift; sourceTree = "<group>"; };
-		FCD39D85209AA95A00E216A7 /* ClassPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClassPost.swift; path = ../../tentativa2/tentativa2/ClassPost.swift; sourceTree = "<group>"; };
-		FCD39D87209AAE2F00E216A7 /* CelulaPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CelulaPost.swift; path = ../../tentativa2/tentativa2/CelulaPost.swift; sourceTree = "<group>"; };
+		FC724EAE209ABAD600842682 /* tentativa2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tentativa2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC724EB1209ABAD600842682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC724EB3209ABAD600842682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC724EB6209ABAD600842682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC724EB8209ABAD800842682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC724EBB209ABAD800842682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC724EBD209ABAD800842682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC724EC3209ABAF900842682 /* CelulaPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaPost.swift; sourceTree = "<group>"; };
+		FC724EC5209ABAF900842682 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		FC724EC6209ABAF900842682 /* ClassPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassPost.swift; sourceTree = "<group>"; };
+		FC724EC7209ABAF900842682 /* PedidoOracaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidoOracaoViewController.swift; sourceTree = "<group>"; };
+		FC724EC8209ABAF900842682 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FCD39D69209A9F0F00E216A7 /* Frameworks */ = {
+		FC724EAB209ABAD600842682 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,76 +45,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FCD39D63209A9F0F00E216A7 = {
+		FC724EA5209ABAD600842682 = {
 			isa = PBXGroup;
 			children = (
-				FCD39D6E209A9F0F00E216A7 /* prototipo */,
-				FCD39D6D209A9F0F00E216A7 /* Products */,
+				FC724EB0209ABAD600842682 /* tentativa2 */,
+				FC724EAF209ABAD600842682 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FCD39D6D209A9F0F00E216A7 /* Products */ = {
+		FC724EAF209ABAD600842682 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCD39D6C209A9F0F00E216A7 /* prototipo.app */,
+				FC724EAE209ABAD600842682 /* tentativa2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FCD39D6E209A9F0F00E216A7 /* prototipo */ = {
+		FC724EB0209ABAD600842682 /* tentativa2 */ = {
 			isa = PBXGroup;
 			children = (
-				FCD39D6F209A9F0F00E216A7 /* AppDelegate.swift */,
-				FCD39D71209A9F0F00E216A7 /* ViewController.swift */,
-				FCD39D87209AAE2F00E216A7 /* CelulaPost.swift */,
-				FCD39D85209AA95A00E216A7 /* ClassPost.swift */,
-				FCD39D81209AA85000E216A7 /* PedidoOracaoViewController.swift */,
-				FCD39D73209A9F0F00E216A7 /* Main.storyboard */,
-				FC724EA3209AB8AD00842682 /* PostViewController.swift */,
-				FCD39D83209AA87200E216A7 /* PerfilViewController.swift */,
-				FCD39D76209A9F1000E216A7 /* Assets.xcassets */,
-				FCD39D78209A9F1000E216A7 /* LaunchScreen.storyboard */,
-				FCD39D7B209A9F1000E216A7 /* Info.plist */,
+				FC724EC3209ABAF900842682 /* CelulaPost.swift */,
+				FC724EC6209ABAF900842682 /* ClassPost.swift */,
+				FC724EC7209ABAF900842682 /* PedidoOracaoViewController.swift */,
+				FC724EC8209ABAF900842682 /* PostViewController.swift */,
+				FC724EC5209ABAF900842682 /* PerfilViewController.swift */,
+				FC724EB1209ABAD600842682 /* AppDelegate.swift */,
+				FC724EB3209ABAD600842682 /* ViewController.swift */,
+				FC724EB5209ABAD600842682 /* Main.storyboard */,
+				FC724EB8209ABAD800842682 /* Assets.xcassets */,
+				FC724EBA209ABAD800842682 /* LaunchScreen.storyboard */,
+				FC724EBD209ABAD800842682 /* Info.plist */,
 			);
-			path = prototipo;
+			path = tentativa2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FCD39D6B209A9F0F00E216A7 /* prototipo */ = {
+		FC724EAD209ABAD600842682 /* tentativa2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCD39D7E209A9F1000E216A7 /* Build configuration list for PBXNativeTarget "prototipo" */;
+			buildConfigurationList = FC724EC0209ABAD800842682 /* Build configuration list for PBXNativeTarget "tentativa2" */;
 			buildPhases = (
-				FCD39D68209A9F0F00E216A7 /* Sources */,
-				FCD39D69209A9F0F00E216A7 /* Frameworks */,
-				FCD39D6A209A9F0F00E216A7 /* Resources */,
+				FC724EAA209ABAD600842682 /* Sources */,
+				FC724EAB209ABAD600842682 /* Frameworks */,
+				FC724EAC209ABAD600842682 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = prototipo;
-			productName = prototipo;
-			productReference = FCD39D6C209A9F0F00E216A7 /* prototipo.app */;
+			name = tentativa2;
+			productName = tentativa2;
+			productReference = FC724EAE209ABAD600842682 /* tentativa2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FCD39D64209A9F0F00E216A7 /* Project object */ = {
+		FC724EA6209ABAD600842682 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Jonathan Loureiro";
 				TargetAttributes = {
-					FCD39D6B209A9F0F00E216A7 = {
+					FC724EAD209ABAD600842682 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
 			};
-			buildConfigurationList = FCD39D67209A9F0F00E216A7 /* Build configuration list for PBXProject "prototipo" */;
+			buildConfigurationList = FC724EA9209ABAD600842682 /* Build configuration list for PBXProject "tentativa2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,59 +122,59 @@
 				en,
 				Base,
 			);
-			mainGroup = FCD39D63209A9F0F00E216A7;
-			productRefGroup = FCD39D6D209A9F0F00E216A7 /* Products */;
+			mainGroup = FC724EA5209ABAD600842682;
+			productRefGroup = FC724EAF209ABAD600842682 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCD39D6B209A9F0F00E216A7 /* prototipo */,
+				FC724EAD209ABAD600842682 /* tentativa2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FCD39D6A209A9F0F00E216A7 /* Resources */ = {
+		FC724EAC209ABAD600842682 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD39D7A209A9F1000E216A7 /* LaunchScreen.storyboard in Resources */,
-				FCD39D77209A9F1000E216A7 /* Assets.xcassets in Resources */,
-				FCD39D75209A9F0F00E216A7 /* Main.storyboard in Resources */,
+				FC724EBC209ABAD800842682 /* LaunchScreen.storyboard in Resources */,
+				FC724EB9209ABAD800842682 /* Assets.xcassets in Resources */,
+				FC724EB7209ABAD600842682 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FCD39D68209A9F0F00E216A7 /* Sources */ = {
+		FC724EAA209ABAD600842682 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD39D72209A9F0F00E216A7 /* ViewController.swift in Sources */,
-				FCD39D88209AAE2F00E216A7 /* CelulaPost.swift in Sources */,
-				FC724EA4209AB8AD00842682 /* PostViewController.swift in Sources */,
-				FCD39D86209AA95A00E216A7 /* ClassPost.swift in Sources */,
-				FCD39D70209A9F0F00E216A7 /* AppDelegate.swift in Sources */,
-				FCD39D84209AA87200E216A7 /* PerfilViewController.swift in Sources */,
-				FCD39D82209AA85000E216A7 /* PedidoOracaoViewController.swift in Sources */,
+				FC724EB4209ABAD600842682 /* ViewController.swift in Sources */,
+				FC724ECB209ABAFA00842682 /* ClassPost.swift in Sources */,
+				FC724ECD209ABAFA00842682 /* PostViewController.swift in Sources */,
+				FC724ECC209ABAFA00842682 /* PedidoOracaoViewController.swift in Sources */,
+				FC724EC9209ABAFA00842682 /* CelulaPost.swift in Sources */,
+				FC724ECA209ABAFA00842682 /* PerfilViewController.swift in Sources */,
+				FC724EB2209ABAD600842682 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FCD39D73209A9F0F00E216A7 /* Main.storyboard */ = {
+		FC724EB5209ABAD600842682 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCD39D74209A9F0F00E216A7 /* Base */,
+				FC724EB6209ABAD600842682 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FCD39D78209A9F1000E216A7 /* LaunchScreen.storyboard */ = {
+		FC724EBA209ABAD800842682 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FCD39D79209A9F1000E216A7 /* Base */,
+				FC724EBB209ABAD800842682 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +182,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FCD39D7C209A9F1000E216A7 /* Debug */ = {
+		FC724EBE209ABAD800842682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		FCD39D7D209A9F1000E216A7 /* Release */ = {
+		FC724EBF209ABAD800842682 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,34 +296,34 @@
 			};
 			name = Release;
 		};
-		FCD39D7F209A9F1000E216A7 /* Debug */ = {
+		FC724EC1209ABAD800842682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = prototipo/Info.plist;
+				INFOPLIST_FILE = tentativa2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonloureiro.prototipo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonloureiro.tentativa2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FCD39D80209A9F1000E216A7 /* Release */ = {
+		FC724EC2209ABAD800842682 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = prototipo/Info.plist;
+				INFOPLIST_FILE = tentativa2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jonloureiro.prototipo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonloureiro.tentativa2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,25 +333,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCD39D67209A9F0F00E216A7 /* Build configuration list for PBXProject "prototipo" */ = {
+		FC724EA9209ABAD600842682 /* Build configuration list for PBXProject "tentativa2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCD39D7C209A9F1000E216A7 /* Debug */,
-				FCD39D7D209A9F1000E216A7 /* Release */,
+				FC724EBE209ABAD800842682 /* Debug */,
+				FC724EBF209ABAD800842682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCD39D7E209A9F1000E216A7 /* Build configuration list for PBXNativeTarget "prototipo" */ = {
+		FC724EC0209ABAD800842682 /* Build configuration list for PBXNativeTarget "tentativa2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCD39D7F209A9F1000E216A7 /* Debug */,
-				FCD39D80209A9F1000E216A7 /* Release */,
+				FC724EC1209ABAD800842682 /* Debug */,
+				FC724EC2209ABAD800842682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FCD39D64209A9F0F00E216A7 /* Project object */;
+	rootObject = FC724EA6209ABAD600842682 /* Project object */;
 }
