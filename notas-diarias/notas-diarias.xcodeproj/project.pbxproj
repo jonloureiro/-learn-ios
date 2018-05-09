@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC8C914D20A2C2ED00234E96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C914C20A2C2ED00234E96 /* AppDelegate.swift */; };
+		FC8C915220A2C2ED00234E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8C915020A2C2ED00234E96 /* Main.storyboard */; };
+		FC8C915520A2C2ED00234E96 /* notas_diarias.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC8C915320A2C2ED00234E96 /* notas_diarias.xcdatamodeld */; };
+		FC8C915720A2C2ED00234E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8C915620A2C2ED00234E96 /* Assets.xcassets */; };
+		FC8C915A20A2C2ED00234E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8C915820A2C2ED00234E96 /* LaunchScreen.storyboard */; };
+		FC8C916220A2C5D000234E96 /* ListarAnotacoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C916120A2C5D000234E96 /* ListarAnotacoesTableViewController.swift */; };
+		FC8C916420A2C5F100234E96 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8C916320A2C5F100234E96 /* EditViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC8C914920A2C2ED00234E96 /* notas-diarias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "notas-diarias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8C914C20A2C2ED00234E96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC8C915120A2C2ED00234E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC8C915420A2C2ED00234E96 /* notas_diarias.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = notas_diarias.xcdatamodel; sourceTree = "<group>"; };
+		FC8C915620A2C2ED00234E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC8C915920A2C2ED00234E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC8C915B20A2C2ED00234E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8C916120A2C5D000234E96 /* ListarAnotacoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListarAnotacoesTableViewController.swift; sourceTree = "<group>"; };
+		FC8C916320A2C5F100234E96 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC8C914620A2C2ED00234E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC8C914020A2C2ED00234E96 = {
+			isa = PBXGroup;
+			children = (
+				FC8C914B20A2C2ED00234E96 /* notas-diarias */,
+				FC8C914A20A2C2ED00234E96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8C914A20A2C2ED00234E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8C914920A2C2ED00234E96 /* notas-diarias.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8C914B20A2C2ED00234E96 /* notas-diarias */ = {
+			isa = PBXGroup;
+			children = (
+				FC8C914C20A2C2ED00234E96 /* AppDelegate.swift */,
+				FC8C916120A2C5D000234E96 /* ListarAnotacoesTableViewController.swift */,
+				FC8C916320A2C5F100234E96 /* EditViewController.swift */,
+				FC8C915020A2C2ED00234E96 /* Main.storyboard */,
+				FC8C915620A2C2ED00234E96 /* Assets.xcassets */,
+				FC8C915820A2C2ED00234E96 /* LaunchScreen.storyboard */,
+				FC8C915B20A2C2ED00234E96 /* Info.plist */,
+				FC8C915320A2C2ED00234E96 /* notas_diarias.xcdatamodeld */,
+			);
+			path = "notas-diarias";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC8C914820A2C2ED00234E96 /* notas-diarias */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8C915E20A2C2ED00234E96 /* Build configuration list for PBXNativeTarget "notas-diarias" */;
+			buildPhases = (
+				FC8C914520A2C2ED00234E96 /* Sources */,
+				FC8C914620A2C2ED00234E96 /* Frameworks */,
+				FC8C914720A2C2ED00234E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "notas-diarias";
+			productName = "notas-diarias";
+			productReference = FC8C914920A2C2ED00234E96 /* notas-diarias.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC8C914120A2C2ED00234E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Jonathan Loureiro";
+				TargetAttributes = {
+					FC8C914820A2C2ED00234E96 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = FC8C914420A2C2ED00234E96 /* Build configuration list for PBXProject "notas-diarias" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC8C914020A2C2ED00234E96;
+			productRefGroup = FC8C914A20A2C2ED00234E96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC8C914820A2C2ED00234E96 /* notas-diarias */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC8C914720A2C2ED00234E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8C915A20A2C2ED00234E96 /* LaunchScreen.storyboard in Resources */,
+				FC8C915720A2C2ED00234E96 /* Assets.xcassets in Resources */,
+				FC8C915220A2C2ED00234E96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC8C914520A2C2ED00234E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8C916420A2C5F100234E96 /* EditViewController.swift in Sources */,
+				FC8C914D20A2C2ED00234E96 /* AppDelegate.swift in Sources */,
+				FC8C915520A2C2ED00234E96 /* notas_diarias.xcdatamodeld in Sources */,
+				FC8C916220A2C5D000234E96 /* ListarAnotacoesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC8C915020A2C2ED00234E96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8C915120A2C2ED00234E96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC8C915820A2C2ED00234E96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8C915920A2C2ED00234E96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC8C915C20A2C2ED00234E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC8C915D20A2C2ED00234E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC8C915F20A2C2ED00234E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "notas-diarias/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonloureiro.notas-diarias";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC8C916020A2C2ED00234E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "notas-diarias/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonloureiro.notas-diarias";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8C914420A2C2ED00234E96 /* Build configuration list for PBXProject "notas-diarias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8C915C20A2C2ED00234E96 /* Debug */,
+				FC8C915D20A2C2ED00234E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8C915E20A2C2ED00234E96 /* Build configuration list for PBXNativeTarget "notas-diarias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8C915F20A2C2ED00234E96 /* Debug */,
+				FC8C916020A2C2ED00234E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC8C915320A2C2ED00234E96 /* notas_diarias.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC8C915420A2C2ED00234E96 /* notas_diarias.xcdatamodel */,
+			);
+			currentVersion = FC8C915420A2C2ED00234E96 /* notas_diarias.xcdatamodel */;
+			path = notas_diarias.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC8C914120A2C2ED00234E96 /* Project object */;
+}
